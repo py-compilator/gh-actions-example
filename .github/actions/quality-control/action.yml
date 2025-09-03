@@ -1,6 +1,5 @@
-name: quality-control
-author: electrotransformation
-description: quality-control
+name: "Code Quality Composite Action (Java)"
+description: "A composite action to run Checkstyle analysis and unit tests for a Java project."
 inputs:
   skip-tests:
     description: "skip tests"
@@ -9,7 +8,7 @@ inputs:
   working-directory:
     required: false
     default: ''
-    description: 'Working DIR'
+    description: 'Working dir !'
 
 runs:
   using: "composite"
